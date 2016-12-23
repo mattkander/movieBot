@@ -1,0 +1,24 @@
+{
+  "name": "moviebot",
+  "version": "1.0.0",
+  "description": "Streaming twitter bot that will tell you what movie to watch",
+  "main": "movieBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node movieBot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://matt@hlk-ci-bitbucket/scm/plebs/personaldev.git"
+  },
+  "keywords": [
+    "Matthew",
+    "Kiernander"
+  ],
+  "author": "Matthew Kiernander",
+  "license": "ISC",
+  "dependencies": {
+    "imdb-api": "^2.2.0",
+    "twit": "^2.2.5"
+  }
+}
